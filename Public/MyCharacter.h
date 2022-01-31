@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/TimelineComponent.h"
 #include "GameFramework/Character.h"
-#include "GCharacter.generated.h"
+#include "MyCharacter.generated.h"
 
 class USpringArmComponent;
 class UCameraComponent;

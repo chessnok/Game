@@ -2,7 +2,8 @@
 
 
 #include "MyCharacter.h"
-
+#include "Camera/CameraComponent.h"
+#include "GameFramework/SpringArmComponent.h"
 // Sets default values
 AMyCharacter::AMyCharacter()
 {
@@ -41,7 +42,7 @@ void AMyCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCompone
 
 }
 
-void AMyCharacter::MoveForward(float Value)
+void AMyCharacter::MoveForward(float value)
 {
     if ((Controller) && (value != 0.0f))
     {
